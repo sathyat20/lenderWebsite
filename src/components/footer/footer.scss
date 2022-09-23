@@ -1,0 +1,77 @@
+@import "~bootstrap/scss/bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@200&display=swap');
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #343E3D;
+  height: auto;
+  width: 100vw;
+  margin-top: 20px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-name {
+  font-weight: bolder;
+  font-size: large;
+  margin-right: 30px;
+  margin-left: 100px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-allowance {
+  padding-bottom: 170px;
+}
+
+.sub-links {
+  display: flex;
+}
+
+.sub-links #single-link {
+  margin-left: 25px;
+  font-size: medium;
+}
+
+.social-media-icons {
+  justify-content: space-evenly;
+  margin-right: 95px;
+}
+
+.social-media-icons #single-icon {
+  margin-left: 20px;
+}
+
+.copyrights {
+  display: flex;
+  font-weight: 100;
+  font-size: small;
+  color: #C3CBCD;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links p:hover {
+  text-decoration: none;
+  color: #14AE5C;
+}
